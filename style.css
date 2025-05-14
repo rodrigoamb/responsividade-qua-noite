@@ -45,11 +45,33 @@ body {
   font-weight: bold;
 }
 
+.menu-icone {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
 @media (max-width: 760px) {
   .container-div-header {
     flex-direction: column;
     gap: 24px;
     align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .menu-icone {
+    display: flex;
+  }
+
+  .container-ul-header {
+    display: none;
   }
 }
 
