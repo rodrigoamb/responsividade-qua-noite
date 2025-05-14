@@ -45,8 +45,22 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 760px) {
+  .container-div-header {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+/* @media (max-width: 1800px) {
   .container-header {
     background-color: #727272;
   }
 }
+
+@media (max-width: 1500px) {
+  .container-header {
+    border-bottom: 32px solid black;
+  }
+} */
